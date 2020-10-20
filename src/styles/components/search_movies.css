@@ -1,0 +1,92 @@
+.wraper {
+    background-color: #0F0E17;
+    width: 80vw;
+    margin: auto;
+    padding: 5.5rem 7rem 1.5rem 7rem;
+    color: #fffffe;
+}
+
+/* Filter Section  */
+
+.wraper form {
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    color: #fffffe;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+    gap: 1rem;
+}
+
+.wraper form input[type="text"] {
+    flex: 1;
+    font-size: 20px;
+    padding: 1rem.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.wraper form button {
+    padding: 1rem 1.5rem;
+}
+
+/* Taps section */
+
+.wraper .taps {
+    width: 100%;
+    display: flex;
+    /* gap: 5px; */
+}
+
+.wraper .taps button {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    border: 2px solid #F25F4C;
+}
+
+.wraper .taps button:disabled {
+    background-color: transparent;
+    color: #F25F4C;
+}
+
+.wraper .taps button:hover {
+    background-color: transparent;
+    color: #F25F4C;
+}
+
+@media only screen and (max-width: 510px) {
+    .wraper {
+        width: 90%;
+        padding: 6rem 1rem;
+    }
+    .wraper form input[type="text"] {
+        flex: 1;
+        font-size: 20px;
+        border: none;
+        border-radius: 2px;
+    }
+    .wraper form {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+    color: #A7A9BE;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.copyright a {
+    color: #F25F4C;
+    text-decoration: none;
+    border-bottom: 1px dotted #F25F4C;
+}
+
+.copyright a:hover {
+    border-bottom: 1px solid #F25F4C;
+}
